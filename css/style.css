@@ -31,8 +31,8 @@ section{background: #fff;margin-top: .5rem;padding:1.3rem .6rem 1.5rem;position:
 .h-span{width: 5rem}
 .h-teacher{color:#f4650b;}
 
-.h-con{position: relative;margin-top: .5rem;color:#666; border-left: 5rem solid transparent;font-size: .8rem}
-.h-con span{position:absolute;left:-5rem;top:0}
+.h-con{position: relative;margin-top: .5rem;color:#666; border-left: 4rem solid transparent;font-size: .8rem}
+.h-con span{position:absolute;left:-4rem;top:0;color: #333}
 hr{margin: .6rem 0;}
 .h-div{text-align: right}
 .h-upload {padding: .2rem .5rem;line-height: 1rem; position: relative;cursor: pointer;
