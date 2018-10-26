@@ -5,7 +5,7 @@
   
     //getBoundingClientRect()这个方法返回一个矩形对象
   
-    window.rem = docEls.getBoundingClientRect().width/25;
+    window.rem = docEls.getBoundingClientRect().width/20;
     docEls.style.fontSize = window.rem + 'px';
   
   };
