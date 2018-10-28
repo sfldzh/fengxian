@@ -1,6 +1,6 @@
 
 body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;} 
-body{background:#f2f2f2;color:#333;font-size:12px; font-family:"PingFang-SC-Medium","Arial Narrow";}  
+body{background:#f2f2f2;color:#333;font-size:12px; font-family:"PingFangSC-Medium","Arial Narrow";}  
 ul,ol{list-style-type:none;} 
 select,input,img,select{vertical-align:middle;}  
 a{text-decoration:none;} 
@@ -35,7 +35,7 @@ section{background: #fff;margin-top: .5rem;padding:1.3rem .6rem 1.5rem;position:
 .h-con span{position:absolute;left:-4rem;top:0;color: #333}
 hr{margin: .6rem 0;}
 .h-div{text-align: right}
-.h-upload {padding: .2rem .5rem;line-height: 1rem; position: relative;cursor: pointer;
+.h-upload {padding: .2rem .5rem;line-height: 1rem; position: relative;cursor: pointer;font-size: .75rem;
     color: #999; background: #fff;border: 1px solid #ccc; border-radius: .8rem;overflow: hidden;
     display: inline-block; *display: inline; *zoom: 1;margin-bottom: .3rem;}
 .h-upload  input {position: absolute;font-size: 100px; right: 0;top: 0;
@@ -49,3 +49,43 @@ footer{position: fixed;bottom: 0;left: 0;right: 0; background: #fff;
 .hover{color:#17a4fa}
 .line{position: absolute;left: 50%;
     width: 1px;height: 2rem; border-left: 1px solid #ccc}
+
+.h-amind{padding:.3rem 1.2rem; margin-bottom: 1rem;}
+.h-info{color:#999;}
+.h-info font{color:#ff0000;margin: .1rem;}
+.h-amind input{margin-left:.5rem;}
+
+.form-group{margin-top: .8rem;}
+.h-group-label{position: relative;font-size: .86rem;word-break:keep-all;white-space:nowrap;}
+.h-group-label font{position: absolute;left: -10px;color:#ff0000;}
+.form-group textarea{width: 17.5rem;height: 3.5rem;margin-top:.3rem;box-sizing: border-box; padding: .6rem;color:#333;}
+.h-form-small{color:#999;}
+
+
+.revise{display: flex;justify-content: space-between;margin-top: .8rem;}
+.revise button{background: #ccc;color:#fff;font-size: .9rem; border-radius: .5rem;width: 8.2rem;height: 2.5rem;border:none}
+.revise .hover{background: #18b4ed;}
+
+.radio-inline{margin-right:2.8rem;margin-left: .6rem;}
+.form-con{width: 5.2rem;text-indent: 20px;background:url(../images/rili.png) no-repeat 3px center; }
+
+.h-conl{margin-right: .5rem;}
+.h-conr{margin-left: .5rem;}
+
+.h-label_box{display: flex;justify-content:space-between;flex-wrap: wrap;}
+.h-label_box>label{margin-top: .3rem;}
+.h-label_box>label>input {position:absolute;top:0;left:-20px;}
+.h-label_box>label>div {text-align:center;background:#fff;border:#cbcccc solid 1px;border-radius:.3rem; 
+	height:1.8rem;line-height:1.8rem;color:#333;user-select:none;overflow:hidden;	position:relative;}
+.h-teacher{width: 4rem}
+.h-grade{width: 4.2rem;}
+.h-year{width: 8rem;}
+.h-label_box>label>div.active{border:#3a97d9 solid 1px;background: #fff;color:#3a97d9;}
+.h-label_box>label>div.active:after {content:'';display:block;width:20px;height:20px;background:#3a97d9;
+	transform:skewY(-135deg);position:absolute;top:-10px;right:0;z-index:1;}
+.h-label_box>label>div.active:before {content:'';display:block;width:3px;height:8px;border-right:#ffffff solid 2px;
+    border-bottom:#ffffff solid 2px;transform:rotate(35deg);position:absolute;top:0;right:4px;z-index:2;}
+.h-year-label{margin-left: 3.8rem;}   
+.h-allradio{margin-left: .3rem;}
+.h-space-between{display: flex;justify-content: space-between;align-items: center}
+.h-flex-start{display: flex;justify-content: flex-start;align-items: baseline}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chome=">
+        <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">    
+        <meta content="yes" name="apple-touch-fullscreen">    
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">    
+        <meta content="telephone=no" name="format-detection">
+        <title>任务</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="iconfont/iconfont.css" rel="stylesheet" >
+        <link href="css/style.css" rel="stylesheet" >
+        <script src="js/rem.js"></script>
+    </head>
+    <body>
+        <header>
+            <span class="h-left">
+                <i class="icon iconfont icon-zuojiantou"></i>
+            </span>  
+            <h6>任务</h6>          
+            <span class="h-right">
+            </span>
+        </header>
+        <main class="h-amind">
+            <small class="h-info">填写说明：带有<font>*</font>标记的项目为必填项</small>
+            <form action="">
+                <div class="form-group">
+                    <label class="h-group-label" for="deblock_udid"><font>*</font>教研主题</label>
+                    <textarea class="form-control" id="deblock_udid" name="deblock_udid" rows="2">活动内容就是活动内容就是活动内容就是活动内容就是
+                    </textarea>
+                </div>
+                <div class="form-group">
+                    <label class="h-group-label" for="deblock_udid"><font>*</font>发布对象</label>
+                    <div class="h-label_box">
+                        <label>
+                            <input type="radio" name="teacher" value="1" checked>
+                            <div class="h-teacher active">教师</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="teacher" value="2">
+                            <div class="h-teacher">备课组长</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="teacher" value="3">
+                            <div class="h-teacher">教研组长</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="teacher" value="4">
+                            <div class="h-teacher">审核员</div>
+                        </label>
+                    </div>                    
+                </div>
+                <div class="form-group">
+                    <div class="h-label_box h-flex-start">
+                        <label class="h-group-label" for="deblock_udid"><font>*</font>涉及年级</label>   
+                        <label class="h-allradio">
+                            <input type="radio" name="grades" value="0">
+                            <div class="h-grade">全部年级</div>
+                        </label>   
+                    </div>                                  
+                    <div class="h-label_box h-year-label" id="hGrader">                        
+                        <label>
+                            <input type="radio" name="grade" value="1" checked>
+                            <div class="h-grade active">一年级</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="2">
+                            <div class="h-grade">二年级</div>
+                        </label>    
+                        <label>
+                            <input type="radio" name="grade" value="3">
+                            <div class="h-grade">三年级</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="4">
+                            <div class="h-grade">四年级</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="5">
+                            <div class="h-grade">五年级</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="6">
+                            <div class="h-grade">六年级</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="7">
+                            <div class="h-grade">七年级</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="8">
+                            <div class="h-grade">八年级</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="9">
+                            <div class="h-grade">九年级</div>
+                        </label>   
+                        <label>
+                            <input type="radio" name="grade" value="10">
+                            <div class="h-grade">高一</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="11">
+                            <div class="h-grade">高二</div>
+                        </label>
+                        <label>
+                            <input type="radio" name="grade" value="12">
+                            <div class="h-grade">高三</div>
+                        </label>                                  
+                    </div>
+                </div>
+                <div class="form-group h-space-between">
+                    <label class="h-group-label" for="deblock_udid"><font>*</font>涉及学校</label>  
+                    <i class="icon iconfont icon-chevron-copy-copy-copy-copy-copy-copy"></i>
+                </div>
+                <div class="form-group">
+                    <label class="h-group-label" for="deblock_udid">学年</label>  
+                    <div  class="h-label_box  h-space-between" id="hGrader">
+                        <label>
+                            <input type="radio" name="year" value="1" checked>
+                            <div class="h-year active">2018学年上学期</div>
+                        </label>  
+                        <label>
+                            <input type="radio" name="year" value="2">
+                            <div class="h-year">2017学年下学期</div>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group h-flex-start">
+                    <label class="h-group-label" for="deblock_udid">时间范围</label>  
+                    <input type="text" class="form-con h-conl" placeholder="2018-08-24">
+                    至
+                    <input type="text" class="form-con h-conr" placeholder="2018-08-24">
+                </div>
+                <div class="form-group h-flex-start">
+                    <label class="h-group-label" for="deblock_udid">是否公开</label>  
+                    <div class="radio h-flex-start">
+                        <label class="radio-inline">
+                            <input type="radio" name="open" value="3" checked>
+                            是
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="open" value="4">
+                            否
+                        </label>
+                    </div>
+                </div>
+                <small class="h-form-small">公开后，您所选择的年纪，无论哪个学校，都可以查看。不公开，只有您选择的年纪、学校可以查看。</small>
+                <div class="form-group h-flex-start">
+                    <label class="h-group-label" for="deblock_udid">参与投票</label>  
+                    <div class="radio h-flex-start">
+                        <label class="radio-inline">
+                            <input type="radio" name="vote" value="3" checked>
+                            是
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="vote" value="4">
+                            否
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group h-flex-start">
+                    <label class="h-group-label" for="deblock_udid">参与反馈</label>  
+                    <div class="radio h-flex-start">
+                        <label class="radio-inline">
+                            <input type="radio" name="feedback" value="3" checked>
+                            是
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="feedback" value="4">
+                            否
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="h-group-label" for="deblock_udid">反馈题目</label>  
+                    <textarea class="form-control" id="deblock_udid" name="deblock_udid" rows="2">题目是什么呢什么呢题目是什么呢什么呢题目是什么呢什么呢题目是什么呢什么呢题
+                    </textarea>
+                </div>
+                <div class="form-group">
+                    <label class="h-group-label" for="deblock_udid">教研内容</label>  
+                    <textarea class="form-control" id="deblock_udid" name="deblock_udid" rows="2">活动内容就是活动内容就是活动内容就是活动内容就是活动内容就是活动内容就是
+                    </textarea>
+                </div>
+                <div class="revise">
+                    <button type="button">删除</button>
+                    <button type="button" class="hover">保存</button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script>
+/* jQuery对象级别插件扩展 */
+$.fn.extend({
+        /* 单选框 */
+        hlRadio:function () {
+            var radioEl=$(this);
+            radioEl.click(function () {
+                radioEl.siblings("div").removeClass("active");
+                $(this).siblings("div").addClass("active");
+            });
+        }
+    });
+ 
+    $("input[name='teacher']").hlRadio();
+    $("input[name='grades']").hlRadio();
+    $("input[name='grade']").hlRadio();
+    $("input[name='year']").hlRadio();
+
+</script>
+ 
